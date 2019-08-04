@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Page Object Model" duration-ms="22953" started-at="2019-08-02T19:47:35Z" finished-at="2019-08-02T19:47:58Z">
+    <groups>
+    </groups>
+    <test name="Login Test" duration-ms="5760" started-at="2019-08-02T19:47:35Z" finished-at="2019-08-02T19:47:41Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="loginTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.LoginTest@42f33b5d]" name="loginTest" duration-ms="3317" started-at="2019-08-02T19:47:35Z" data-provider="dp" finished-at="2019-08-02T19:47:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=bouchra83, runmode=Y, username=lougani2010@gmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+    </test> <!-- Login Test -->
+    <test name="Create Account Test" duration-ms="16988" started-at="2019-08-02T19:47:41Z" finished-at="2019-08-02T19:47:58Z">
+      <class name="com.w2a.testcases.LoginTest">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.w2a.testcases.LoginTest@42f33b5d]" name="tearDown" is-config="true" duration-ms="2157" started-at="2019-08-02T19:47:58Z" finished-at="2019-08-02T19:48:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.w2a.testcases.LoginTest -->
+      <class name="com.w2a.testcases.CreateAccountTest">
+        <test-method status="PASS" signature="createAccountTest(java.util.Hashtable)[pri:0, instance:com.w2a.testcases.CreateAccountTest@278bb07e]" name="createAccountTest" duration-ms="16912" started-at="2019-08-02T19:47:41Z" data-provider="dp" finished-at="2019-08-02T19:47:58Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{accountname=Rach}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAccountTest -->
+      </class> <!-- com.w2a.testcases.CreateAccountTest -->
+    </test> <!-- Create Account Test -->
+  </suite> <!-- Page Object Model -->
+</testng-results>
