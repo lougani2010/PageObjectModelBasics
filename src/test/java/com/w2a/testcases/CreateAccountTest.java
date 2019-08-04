@@ -15,7 +15,7 @@ public class CreateAccountTest {
 	@Test(dataProviderClass=Utilities.class,dataProvider="dp")
 	public void createAccountTest(Hashtable<String,String>data) {
 		
-		
+		//Using EGIT plugin
 		ZohoAppPage zp=new ZohoAppPage();
 		zp.gotoCRM();
 		//go to accounts
