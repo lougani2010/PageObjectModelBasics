@@ -15,7 +15,7 @@ public class LoginTest extends BaseTest {
 	@Test(dataProviderClass=Utilities.class,dataProvider="dp")
 	public void loginTest(Hashtable<String,String>data) {
 		
-		//go to home page and  do login
+		//go to home page and  do login changes
 		HomePage home = new HomePage();
 		LoginPage lp = home.goToLogin();
 		ZohoAppPage zp = lp.doLogin(data.get("username"), data.get("password"));
